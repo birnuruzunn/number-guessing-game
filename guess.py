@@ -68,7 +68,7 @@ class User(object):	#If user chosee '2', user will think a number and computer  
 Please, think of a 4-digits integer number from 1000 to 9999 and \n \
 I will guess it.After each guess, I will ask you if it is less  \n \
 than or equalto some number, and you should respond with 'yes',\n \
-'no' or 'founded'. \n ==============================================\n") 
+'no' or 'found'. \n ==============================================\n") 
 		self.binarysearch(mn, mx)
 
 	def print(self, mn, mx, guess):	#It tries to find the number that the user thinks using "binary search" method.
@@ -80,11 +80,11 @@ than or equalto some number, and you should respond with 'yes',\n \
 			elif s=='no':
 				mn = guess+1 	#If user type 'no', its change local minimum value
 				break
-			elif s=='founded':
-				print("finally!, I founded the number that you thought !!! \n")
+			elif s=='found':
+				print("finally!, I found the number that you thought !!! \n")
 				sys.exit()
 			else:
-				print("please only answer as yes/no' or 'founded' \n")
+				print("please only answer as yes/no' or 'found' \n")
 				break
 		self.binarysearch(mn,mx)
 
