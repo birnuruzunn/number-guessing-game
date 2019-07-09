@@ -5,20 +5,11 @@ If it is on the computer that will make the prediction, the user is expected to 
 
 ![image alt "left"](/screenshot2.png) 
 ![image alt "right"](/screenshot1.png)
+<table>
+	<tr><th><img src="/screenshot2.png" width="200" height="200" title="image-left"></th>
+    <th><img src="/screenshot1.png" width="200" height="200" title="image-right"></th></tr>
+</table>
 
-img[alt$="left"] {
-  float: right;
-  width: auto;
-  height: auto;
-  margin: auto;
-}
-
-img[alt$="right"] {
-  float: left;
-  width: auto;
-  height: auto;
-  margin: auto;
-}
 
 ### Requirements
 - Python 3.7.3
