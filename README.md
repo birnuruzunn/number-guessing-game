@@ -4,8 +4,8 @@
 If it is on the computer that will make the prediction, the user is expected to enter a hint. Usually the expected tip is '+/- (with_value)'.
 
 <table>
-	<tr><th><img src="/screenshot2.png" width="400" height="400" title="image-left"></th>
-    <th><img src="/screenshot1.png" width="400" height="400" title="image-right"></th></tr>
+	<tr><th><img src="/screenshot2.png" width="400" height="400" title="image-left" text="user is made the prediction"></th>
+    <th><img src="/screenshot1.png" width="400" height="400" title="image-right" text="computer is made the prediction"></th></tr>
 </table>
 
 
