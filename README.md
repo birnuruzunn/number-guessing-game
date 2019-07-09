@@ -9,6 +9,7 @@ If it is on the computer that will make the prediction, the user is expected to 
 </table>
 
 >left image is belong to situation that user is made the prediction
+
 >right image is belong to situation that computer is made the prediction
 
 ### Requirements
